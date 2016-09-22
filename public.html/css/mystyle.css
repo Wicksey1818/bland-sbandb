@@ -2,7 +2,29 @@ body {
     background-color: #FCFFF5;
 }
 
-h1 {
-    color: navy;
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    background-color:#3E606F;
+}
+ li {
+    float: left;
+}
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #193441;
+} 
+
+p {
+    color: #193441;
     margin-left: 20px;
 }
