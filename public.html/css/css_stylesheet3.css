@@ -16,3 +16,8 @@ ul li a {
   padding: 14px 16px;
   color: white;
 {
+
+#copyright {
+  font-size: 12px;
+  font-family: arial,sans-serif;
+}

@@ -15,4 +15,30 @@ ul li a {
   float: left;
   padding: 14px 16px;
   color: white;
-{
+}
+
+ tr th {
+  border-style: solid;
+  padding: 10px;
+  border-width: 3px;
+  border-color: white;
+  font-size: 24px;
+}
+
+tr td {
+  border-style: solid;
+  padding: 5px;
+  border-width: 3px;
+  border-color: white;
+  font-size: 12px;
+}
+
+#copyright {
+  font-size: 12px;
+  font-family: arial,sans-serif;
+}
+
+#rooms {
+  font-size: 20px;
+  font-family: arial,sans-serif;
+}
