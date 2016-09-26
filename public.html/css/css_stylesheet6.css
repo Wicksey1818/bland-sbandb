@@ -16,3 +16,10 @@ ul li a {
   padding: 14px 16px;
   color: white;
 {
+
+p {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px;
+}
