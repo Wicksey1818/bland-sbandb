@@ -1,11 +1,36 @@
 body {
   background: #FCFFF5;
   color: #193441;
+}
 
 p {
-	font-family: Arial;
+	font-family: arial, sans-serif;
 }
 
 .copyright {
 	font-size: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #193441;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #11232B;
 }
