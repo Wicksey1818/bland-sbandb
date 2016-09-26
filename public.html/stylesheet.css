@@ -1,15 +1,23 @@
 body {
-  background: #FCFFF5;
-  color: #193441;
+	background: #FCFFF5;
+	color: #193441;
+	border-style: solid;
 }
 
 p {
 	font-family: arial, sans-serif;
 }
 
+
 .copyright {
 	font-size: 12px;
 }
+
+
+table, th, td {
+   border: 1px solid black;
+}
+
 
 nav ul {
     list-style-type: none;
