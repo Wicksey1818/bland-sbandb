@@ -2,6 +2,106 @@
 
 <!DOCTYPE html>
 
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example Bootstrap Document</title>
+
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="custom.css">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="index.html">Home Page</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="about.html"> About</a> </li>
+            <li> <a href="roomdeals.html"> Room Deals</a> </li>
+            <li> <a href="hoursandlocations.html"> Hours and
+            Locations </a> </li>
+            <li> <a href="newsaboutblands.html"> News about Bland's
+            </a> </li>
+            <li> <a href="placestovisit.html"> Places to
+            Visit Around Bland's </a> </li>
+            <li> <a href="signup.html"> Sign Up </a> </li>
+            <li> <a href="login.html"> Log In </a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+
+        <div class="row text-center">
+            <img src="img/blandsbedandbreakfast.png" alt="logo"/>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> 1 Bed </th>
+                    <th> 2 Bed </th>
+                    <th> 3 Bed </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> $125 per night </td>
+                    <td> $250 per night </td>
+                    <td> $325 per night </td>
+                </tr>
+            </tbody>  
+        </table>
+        
+        <footer>
+            <p> Copyright 2016 Bland's Bed and Breakfast </p>
+        </footer>
+        
+      </div>
+    </div>
+
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<!-- Content Code
+<!DOCTYPE html>
+
 <html lang="en">
     <head>
         <title>Deals</title>
@@ -45,3 +145,4 @@
         </footer>
     </body>
 </html>
+-->
